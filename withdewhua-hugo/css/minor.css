@@ -726,3 +726,8 @@ input[type="text"] {
     color: #fff !important;
     background: #2ebaae;
 }
+
+/* shortcodes */
+.gist {
+    max-width: 800px;
+}
