@@ -730,4 +730,5 @@ input[type="text"] {
 /* shortcodes */
 .gist {
     max-width: 800px;
+    margin: 0 auto;
 }
