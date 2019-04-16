@@ -727,6 +727,30 @@ input[type="text"] {
     background: #2ebaae;
 }
 
+/* TableofContents */
+#content nav ul {
+    list-style-type: none;
+}
+
+#content nav ul li>ul {
+    list-style-type: disc;
+}
+
+#content nav ul li ul li>ul {
+    list-style-type: circle;
+}
+
+#content nav ul li ul li ul li>ul {
+    list-style-type: square;
+}
+
+.toc {
+    background: #f8f8f8;
+    border: solid 2px #20c997;
+    margin: 2em 0 2em 0;
+    padding: 0 1em;
+}
+
 /* shortcodes */
 .gist {
     max-width: 800px;
