@@ -1941,4 +1941,5 @@ body.is-menu-visible #menu {
   background: #f8f8f8;
   border: solid 2px #20c997;
   margin: 2em 0 2em 0;
+  padding: 0 1em;
 }
