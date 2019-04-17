@@ -756,3 +756,16 @@ input[type="text"] {
     max-width: 800px;
     margin: 0 auto;
 }
+
+/* hugo-encryptor */
+.hugo-encryptor-input {
+    padding: 0 12px;
+}
+
+input[type="button"].hugo-encryptor-button {
+    font-size: inherit;
+    height: inherit;
+    line-height: inherit;
+    padding: 1px 6px;
+    border: solid 1px #2ebaae;
+}
