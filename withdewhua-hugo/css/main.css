@@ -153,6 +153,21 @@ table {
   border-spacing: 0;
 }
 
+::selection {
+  background:#20c997; 
+  color:#ffffff;
+}
+
+::-moz-selection {
+  background:#20c997; 
+  color:#ffffff;
+}
+
+::-webkit-selection {
+  background:#20c997; 
+  color:#ffffff;
+}
+
 /* Box Model */
 
 *,
