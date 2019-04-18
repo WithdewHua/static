@@ -12,7 +12,7 @@ media_folder: static/img/post
 public_folder: /img/post
 
 display_url: https://withdewhua.space/
-# logo_url: https://cdn.jsdelivr.net/gh/WithdewHua/chaos-cdn/withdewhua-hugo/img/favicon/favicon-32x32.png
+# logo_url: https://cdn.jsdelivr.net/gh/WithdewHua/static@withdewhua-hugo/img/favicon/favicon-32x32.png
 
 collections:
   - name: "post"
