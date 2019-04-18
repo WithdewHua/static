@@ -1,2 +1,1 @@
-# chaos-cdn
-
+# static files
