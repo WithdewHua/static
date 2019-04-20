@@ -77,6 +77,18 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
+  new RegExp(/https:\/\/at\.alicdn\.com\//),
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: "fcj:static",
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 20
+      })
+    ]
+  })
+);
+
+workbox.routing.registerRoute(
   new RegExp("https://pic\.superbed\.cn/"),
   workbox.strategies.cacheFirst({
     cacheName: "fcj:img",

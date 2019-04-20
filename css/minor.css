@@ -47,14 +47,14 @@ ul.actions.pagination .next:after {
     content: "";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "iconfont";
     font-style: normal;
     font-weight: 900;
     text-transform: none !important;
 }
 
 ul.actions.pagination .next:after {
-    content: "\f054";
+    content: "\e72d";
 }
 
 ul.actions.pagination .previous {
@@ -65,14 +65,14 @@ ul.actions.pagination .previous:before {
     content: "";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "iconfont";
     font-style: normal;
     font-weight: 900;
     text-transform: none !important;
 }
 
 ul.actions.pagination .previous:before {
-    content: "\f053";
+    content: "\e703";
 }
 
 @media screen and (max-width: 1280px) {
@@ -654,12 +654,12 @@ form.search:before,
 form.contact:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "iconfont";
     font-style: normal;
     font-weight: 900;
     text-transform: none !important;
     color: #aaaaaa;
-    content: "\f002";
+    content: "\e6df";
     display: block;
     height: 2.75em;
     left: 0;
@@ -733,36 +733,6 @@ textarea:active {
     border: solid 1px #2ebaae;
 }
 
-.select-wrapper {
-    text-decoration: none;
-    display: block;
-    position: relative;
-}
-
-.select-wrapper:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-style: normal;
-    font-weight: 900;
-    text-transform: none !important;
-    color: rgba(160, 160, 160, 0.3);
-    content: "\f078";
-    display: block;
-    height: 2.75em;
-    line-height: 2.75em;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
-    width: 2.75em;
-}
-
-.select-wrapper select::-ms-expand {
-    display: none;
-}
-
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -802,7 +772,7 @@ input[type="radio"]+label {
 input[type="radio"]+label:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
+    font-family: "iconfont";
     font-style: normal;
     font-weight: 900;
     text-transform: none !important;
@@ -823,7 +793,7 @@ input[type="radio"]:checked+label:before {
     background: #3c3b3b;
     border-color: #3c3b3b;
     color: #ffffff;
-    content: "\f00c";
+    content: "\e654";
 }
 
 input[type="radio"]:focus+label:before {
@@ -978,8 +948,8 @@ table>tbody>tr>td:first-child {
 
     table>tbody>tr>td:first-child:after {
         float: right;
-        content: "\f107";
-        font-family: "Font Awesome 5 Free";
+        content: "\e6e9";
+        font-family: "iconfont";
         font-style: normal;
         font-weight: 900;
         text-decoration: inherit;
