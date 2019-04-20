@@ -77,7 +77,7 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
-  new RegExp(/https:\/\/at\.alicdn\.com\//),
+  new RegExp(/https:\/\/(\w)+\.alicdn\.com\//),
   workbox.strategies.staleWhileRevalidate({
     cacheName: "fcj:static",
     plugins: [
