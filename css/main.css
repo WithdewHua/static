@@ -379,7 +379,6 @@ blockquote p {
 
 code {
   background: rgba(160, 160, 160, 0.075);
-  border: solid 1px rgba(160, 160, 160, 0.3);
   font-family: Consolas, Courier, "Courier New", "STKaiti", "KaiTi", "SimKai",
     monospace;
   font-size: 0.9em;
