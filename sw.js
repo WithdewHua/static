@@ -121,7 +121,7 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
-  new RegExp(/https:\/\/cdn\.jsdelivr\.net\/gh\/WithdewHua\/static@latest\/img\//),
+  new RegExp(/https:\/\/cdn\.jsdelivr\.net\/gh\/WithdewHua\/static@withdewhua-hugo\/img\//),
   workbox.strategies.cacheFirst({
     cacheName: "fcj:img",
     plugins: [
