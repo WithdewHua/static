@@ -1,5 +1,5 @@
 /* List */
-ul.alt {
+ul.alt, ul.task-list {
     list-style: none;
     padding-left: 0;
 }

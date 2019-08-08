@@ -566,6 +566,9 @@ ul li {
   padding-left: 0.25em;
 }
 
+ul li ul {
+  list-style-type: circle;
+}
 ul.icons {
   cursor: default;
   list-style: none;
