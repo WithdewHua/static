@@ -22,30 +22,24 @@ self.addEventListener("unhandledrejection", function(e) {
   });
 });
 
-importScripts("https://cdn.jsdelivr.net/npm/workbox-cdn@3.6.3/workbox/workbox-sw.js");
+const workboxVersion = '4.3.1';
+
+importScripts(`https://cdn.jsdelivr.net/npm/workbox-cdn@${workboxVersion}/workbox/workbox-sw.js`);
+
 workbox.setConfig({
   debug: false,
-  modulePathPrefix: "https://cdn.jsdelivr.net/npm/workbox-cdn@3.6.3/workbox/"
+  modulePathPrefix: `https://cdn.jsdelivr.net/npm/workbox-cdn@${workboxVersion}/workbox/`
 });
-workbox.skipWaiting();
-workbox.clientsClaim();
+workbox.core.skipWaiting();
+workbox.core.clientsClaim();
 
 const maxEntries = 100;
 
+
+// GA 统计不缓存
 workbox.routing.registerRoute(
-  new RegExp(/https:\/\/withdewhua\.space\/.*/),
-  workbox.strategies.staleWhileRevalidate({
-    cacheName: "fcj:blog",
-    plugins: [
-      new workbox.expiration.Plugin({
-        maxEntries,
-        maxAgeSeconds: 30 * 24 * 60 * 60
-      }),
-      new workbox.cacheableResponse.Plugin({
-        statuses: [0, 200]
-      })
-    ]
-  })
+  new RegExp('^https://ga\.giuem\.com'),
+  new workbox.strategies.NetworkOnly()
 );
 
 // 图片、样式表、字体文件等
