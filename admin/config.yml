@@ -17,7 +17,7 @@ display_url: https://withdewhua.space/
 collections:
   - name: "post"
     label: "Blog"
-    folder: "content/blog/2018"
+    folder: "content/blog"
     create: true
     slug: "{{slug}}"
     fields:
