@@ -1,0 +1,16 @@
+{
+    "name": "花着露于方寸间",
+    "short_name": "方寸间",
+    "icons": [
+		{
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+	"start_url": "https://withdewhua.space/",
+	"orientation": "portrait"
+}

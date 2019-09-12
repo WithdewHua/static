@@ -1,0 +1,8 @@
+# Redirect default Netlify subdomain to primary domain
+https://withdewhua.netlify.com/* https://withdewhua.space/:splat 301!
+
+# Redirect aff links
+/go/zhs https://zhs.icu/auth/register?code=ILoveMask 301!
+/go/bwg https://bandwagonhost.com/aff.php?aff=18103 301!
+/go/lanan https://my.v2fly.net/aff.php?aff=17 301!
+/go/catchflying https://www.catchflying.cc/auth/register?code=5ATO 301!
