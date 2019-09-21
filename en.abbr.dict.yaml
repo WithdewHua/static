@@ -30,7 +30,7 @@ Apple Remote	iremote
 Apple Store	istore
 Apple TV	atv
 Apple Watch	iwatch
-Arial Black	arial black
+Arial Black	arial
 Arial Narrow	arial
 Arial Rounded	arial
 Arial Unicode	arial
@@ -106,6 +106,8 @@ PhpStorm	php
 Pokémon GO	pokemon
 Proxy Group	proxy
 PDF Expert	pdf
+Quantumult	quanx	1
+Quantumult X	quanx	2
 QuickTime Player	quick
 Sans Serif	sans
 Shadowsocks	ss
@@ -121,6 +123,9 @@ TP-LINK	tp
 URL Scheme	url
 USB-A	usb
 USB-C	usb
+UTF-8	utf	3
+UTF-16	utf	2
+UTF-32	utf	1
 VirtualBox	vbox
 Virtual PC	vpc
 Xbox One	xbox
