@@ -3,7 +3,7 @@
 Thumbs.db
 
 build/
-*.userdb
+*.userdb/
 *.userdb.txt
 custom_phrase.txt
 user.yaml
