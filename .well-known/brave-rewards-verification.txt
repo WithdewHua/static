@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: withdewhua.space
-Token: df0ad82d88bf5420a3ece39e15585457a1afebb3bf4fbc581e82a6949a995752
