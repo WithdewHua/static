@@ -35,6 +35,7 @@ Arial Narrow	arial
 Arial Rounded	arial
 Arial Unicode	arial
 BetterTouchTool	btt
+Bitwarden	bitwar
 BoldItalic	bold
 C++	cpp
 Final Cut Pro	fcp
@@ -110,7 +111,8 @@ Quantumult	quanx	1
 Quantumult X	quanx	2
 QuickTime Player	quick
 Sans Serif	sans
-Shadowsocks	ss
+Shadowsocks	ss	1000
+ShadowsocksR	ssr
 Sublime Text	sublime
 Surge iOS	surge
 Surge Mac	surge
