@@ -2,11 +2,24 @@
 .DS_Store
 Thumbs.db
 
+# Rime
 build/
 *.userdb/
 *.userdb.txt
-custom_phrase.txt
 user.yaml
-squirrel.*
-weasel.*
 installation.yaml
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+
+.ttxfolder
+backgrounds/*
+backgrounds/
+trime.*
+*.trime.yaml
+*.custom.yaml
+!default.custom.yaml
+!double_pinyin.custom.yaml
+*.tar.gz
+custom_phrase.txt
